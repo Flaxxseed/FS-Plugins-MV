@@ -156,12 +156,4 @@ Sprite_Enemy.prototype.setEnemyHome = function(index){
   this.setHome(homeX, homeY);
 };
 
-
-//Sprite_Enemy.prototype.setBattler = function(battler) {
-//    Sprite_Battler.prototype.setBattler.call(this, battler);
-//    this._enemy = battler;
-//    this.setHome(battler.screenX(), battler.screenY());
-//    this._stateIconSprite.setup(battler);
-//};
-
 })(FS.PositionEnemies, FS.PluginCommands);
